@@ -28,3 +28,10 @@ function listPopularPosts() {
     return $strBuidler;
 }
 ?>
+
+
+Usages:
+<h2><?php _e('Popular Posts'); ?></h2>
+<ul>
+    <?php echo(listPopularPosts()); ?>
+</ul>
